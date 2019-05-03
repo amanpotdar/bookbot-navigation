@@ -9,6 +9,7 @@ In addition an rviz-based waypoint UI and a simple simulation node are also prov
 
 ## Basic Usage
 
+
 To try out the bookbot navigation planner:
 1. Compile the packages in a ROS workspace (and resource the setup.bash for the workspace to ensure rviz can find the waypoint tool)
 2. Load the `primitive_velocity_planner/rviz/planner.rviz` config in rviz
@@ -16,6 +17,9 @@ To try out the bookbot navigation planner:
 	`roslaunch primitive_velocity_planner test_primitive_velocity_planner.launch`
 4. Set new waypoints by clicking on the waypoint tool (or using `w` as a hotkey) and then `shift-click` to append a new waypoint or `ctrl-click` to replace the existing set of waypoints.
 
+
+
 ## Disclaimer
+
 
 This is not an officially supported Google product. 
